@@ -10,7 +10,7 @@ const HoursLocationSection = () => {
   ];
 
   const openGoogleMaps = () => {
-    window.open("https://maps.google.com/?q=C/+Vega+21,+Valladolid", "_blank");
+    window.open("https://share.google/t7j1DPO0fIkUlLqdp", "_blank");
   };
 
   return (
