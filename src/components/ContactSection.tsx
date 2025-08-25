@@ -42,7 +42,7 @@ const ContactSection = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-foreground font-medium mb-2">C/ Vega 21</p>
-                <p className="text-foreground font-medium mb-4">47003 Valladolid</p>
+                <p className="text-foreground font-medium mb-4">47004 Valladolid</p>
                 <p className="text-muted-foreground text-sm">
                   En pleno centro histórico de Valladolid, cerca de la Plaza Mayor y zonas comerciales.
                 </p>
