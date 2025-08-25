@@ -9,7 +9,7 @@ const Footer = () => {
   };
 
   const openGoogleMaps = () => {
-    window.open("https://maps.google.com/?q=C/+Vega+21,+Valladolid", "_blank");
+    window.open("https://share.google/QgcsI8bZaBNOYRHsc", "_blank");
   };
 
   return (
