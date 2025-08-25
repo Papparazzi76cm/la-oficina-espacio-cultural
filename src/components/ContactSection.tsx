@@ -128,7 +128,7 @@ const ContactSection = () => {
               <CardContent className="text-center space-y-4">
                 <p className="text-foreground">
                   Te esperamos en C/ Vega 21 para disfrutar juntos de un ambiente único, 
-                  café de calidad y las mejores tapas de Valladolid.
+                  café de calidad y los mejores desayunos de Valladolid.
                 </p>
                 <Button 
                   size="lg"
