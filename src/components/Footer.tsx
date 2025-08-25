@@ -1,4 +1,5 @@
 import { Coffee, MapPin, Clock, Phone, MessageCircle, Star } from "lucide-react";
+import logoLaOficina from "@/assets/logo-la-oficina.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -19,13 +20,11 @@ const Footer = () => {
           {/* Logo and description */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-accent rounded-full flex items-center justify-center">
-                <Coffee className="w-6 h-6 text-accent-foreground" />
-              </div>
-              <div>
-                <h3 className="font-dancing text-xl font-bold">La Oficina</h3>
-                <p className="text-sm opacity-80">Café-Bar</p>
-              </div>
+              <img 
+                src={logoLaOficina} 
+                alt="Café-Bar La Oficina Logo" 
+                className="h-12 w-auto brightness-0 invert"
+              />
             </div>
             <p className="text-sm opacity-90 leading-relaxed">
               Tu rincón acogedor en Valladolid para disfrutar de un buen café, 
