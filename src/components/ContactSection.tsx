@@ -14,7 +14,7 @@ const ContactSection = () => {
   };
 
   const callPhone = () => {
-    window.location.href = "tel:+34123456789";
+    window.location.href = "tel:+34983840380";
   };
 
   return (
