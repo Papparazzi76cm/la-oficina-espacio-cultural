@@ -42,7 +42,7 @@ const HeroSection = () => {
               src={logoLaOficina} 
               alt="Café-Bar La Oficina Logo" 
               className="mx-auto w-full max-w-md"
-              style={{ filter: 'drop-shadow(2px 4px 6px rgba(0,0,0,0.7))' }}
+              style={{ filter: 'invert(1) drop-shadow(2px 4px 6px rgba(0,0,0,0.7))' }}
             />
           </div>
 
