@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Coffee } from "lucide-react";
+import { ArrowDown } from "lucide-react";
 import { useState, useEffect } from "react";
+import logoLaOficina from "@/assets/logo-bar-la-oficina.png";
 
 const HeroSection = () => {
   const [offsetY, setOffsetY] = useState(0);
@@ -35,17 +36,15 @@ const HeroSection = () => {
       
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
-          {/* Logo/Icon */}
-          <div className="mb-8">
-            <div className="w-24 h-24 mx-auto bg-white/20 backdrop-blur-sm border border-white/30 rounded-full flex items-center justify-center mb-4 shadow-lg">
-              <Coffee className="w-12 h-12 text-white" />
-            </div>
+          {/* Logo */}
+          <div className="mb-8 animate-fade-in">
+            <img 
+              src={logoLaOficina} 
+              alt="Café-Bar La Oficina Logo" 
+              className="mx-auto w-full max-w-md"
+              style={{ filter: 'drop-shadow(2px 4px 6px rgba(0,0,0,0.7))' }}
+            />
           </div>
-
-          {/* Main Heading */}
-          <h1 className="font-dancing text-5xl md:text-7xl font-bold text-white mb-6 animate-fade-in" style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.7)' }}>
-            Bienvenido a Café-Bar La Oficina
-          </h1>
 
           {/* Subtitle */}
           <p className="font-playfair text-xl md:text-2xl text-white/90 mb-8 animate-fade-in [animation-delay:0.2s]" style={{ textShadow: '1px 1px 4px rgba(0,0,0,0.7)' }}>
