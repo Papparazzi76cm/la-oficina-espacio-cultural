@@ -4,9 +4,9 @@ import { Clock, MapPin, ExternalLink } from "lucide-react";
 
 const HoursLocationSection = () => {
   const schedule = [
-    { day: "Lunes a Viernes", hours: "8:00 – 23:00", isToday: false },
-    { day: "Sábados", hours: "9:00 – 00:00", isToday: false },
-    { day: "Domingos", hours: "9:00 – 15:00", isToday: false }
+    { day: "Lunes a Viernes", hours: "07:30 – 22:00", isToday: false },
+    { day: "Sábados", hours: "8:30 – 16:00", isToday: false },
+    { day: "Domingos", hours: "Descanso", isToday: false }
   ];
 
   const openGoogleMaps = () => {
@@ -73,7 +73,7 @@ const HoursLocationSection = () => {
                   C/ Vega 21
                 </p>
                 <p className="text-lg text-foreground font-medium mb-4">
-                  47003 Valladolid
+                  47004 Valladolid
                 </p>
                 <p className="text-muted-foreground mb-6">
                   En pleno centro de Valladolid, fácil acceso y ambiente acogedor.
