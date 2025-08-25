@@ -1,5 +1,5 @@
 import { Coffee, MapPin, Clock, Phone, MessageCircle, Star } from "lucide-react";
-import logoLaOficina from "@/assets/logo-la-oficina.png";
+import logoLaOficina from "@/assets/logo-bar-la-oficina.png";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
