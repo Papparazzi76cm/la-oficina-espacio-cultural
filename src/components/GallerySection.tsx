@@ -2,16 +2,15 @@ import { Card } from "@/components/ui/card";
 import { Camera } from "lucide-react";
 
 const GallerySection = () => {
-  // Placeholder images - en producción se usarían las imágenes reales del café
   const galleryImages = [
-    { id: 1, src: "/api/placeholder/400/300", alt: "Interior acogedor del café", category: "interior" },
-    { id: 2, src: "/api/placeholder/400/300", alt: "Barra con productos frescos", category: "barra" },
-    { id: 3, src: "/api/placeholder/400/300", alt: "Terraza exterior", category: "terraza" },
-    { id: 4, src: "/api/placeholder/400/300", alt: "Café recién hecho", category: "cafe" },
-    { id: 5, src: "/api/placeholder/400/300", alt: "Desayuno especial", category: "comida" },
-    { id: 6, src: "/api/placeholder/400/300", alt: "Tapas variadas", category: "comida" },
-    { id: 7, src: "/api/placeholder/400/300", alt: "Ambiente nocturno", category: "ambiente" },
-    { id: 8, src: "/api/placeholder/400/300", alt: "Fachada del local", category: "exterior" }
+    { id: 1, src: "/gallery/unnamed (5).jpg", alt: "Fachada exterior del Café-Bar La Oficina" },
+    { id: 2, src: "/gallery/barra-tapas-la-oficina.webp", alt: "Barra con una selección de pinchos y bollería" },
+    { id: 3, src: "/gallery/barra-la-oficina.jpg", alt: "Interior del bar con luces de neón azules" },
+    { id: 4, src: "/gallery/cafe-la-oficina.jpg", alt: "Taza de café con leche y espuma" },
+    { id: 5, src: "/gallery/desayunoi-con-tortilla-la-oficina.jpg", alt: "Desayuno completo con pincho de tortilla, café y zumo" },
+    { id: 6, src: "/gallery/pincho-tortilla-la-oficina.jpg", alt: "Primer plano de un pincho de tortilla jugoso" },
+    { id: 7, src: "/gallery/sandwich-vegetal-la-oficina.jpg", alt: "Sándwich vegetal tostado servido en un plato" },
+    { id: 8, src: "/gallery/cafe-para-llevar-la-oficina.jpg", alt: "Cartel promocional de café para llevar" },
   ];
 
   return (
@@ -29,19 +28,17 @@ const GallerySection = () => {
 
         {/* Gallery Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-w-7xl mx-auto">
-          {galleryImages.map((image, index) => (
+          {galleryImages.map((image) => (
             <Card key={image.id} className="group overflow-hidden border-border/50 hover:shadow-xl transition-all duration-300 hover:scale-105">
               <div className="relative aspect-square overflow-hidden">
-                {/* Placeholder background with icon - en producción se reemplazaría por las imágenes reales */}
-                <div className="w-full h-full bg-gradient-to-br from-secondary/60 to-accent/30 flex items-center justify-center">
-                  <div className="text-center">
-                    <Camera className="w-12 h-12 text-muted-foreground mx-auto mb-2" />
-                    <p className="text-sm text-muted-foreground px-4">{image.alt}</p>
-                  </div>
-                </div>
+                <img
+                  src={image.src}
+                  alt={image.alt}
+                  className="object-cover w-full h-full transition-transform duration-300 group-hover:scale-110"
+                />
                 
                 {/* Overlay on hover */}
-                <div className="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                <div className="absolute inset-0 bg-primary/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
                   <div className="text-center text-primary-foreground">
                     <Camera className="w-8 h-8 mx-auto mb-2" />
                     <p className="text-sm font-medium">{image.alt}</p>
