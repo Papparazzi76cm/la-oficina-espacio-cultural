@@ -16,7 +16,7 @@ const AboutSection = () => {
     {
       icon: Coffee,
       title: "Café de Calidad",
-      description: "Seleccionamos los mejores granos para ofrecerte el café perfecto"
+      description: "Le ponemos mucho cuidado y cariño al producto, para ofrecerte el café perfecto"
     },
     {
       icon: Star,
