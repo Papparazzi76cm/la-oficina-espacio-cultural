@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
-import { Coffee, Utensils, Wine, Clock } from "lucide-react";
+import { Coffee, Utensils, Wine } from "lucide-react";
 
 const MenuSection = () => {
   const breakfastMenu = [
@@ -84,7 +84,7 @@ const MenuSection = () => {
                         <h4 className="font-semibold text-primary mb-1">{item.name}</h4>
                         <p className="text-sm text-muted-foreground">{item.description}</p>
                       </div>
-                      <Badge variant="outline" className="ml-4 text-accent-foreground bg-accent/20">
+                      <Badge className="ml-4 text-accent-foreground bg-accent">
                         {item.price}
                       </Badge>
                     </div>
@@ -113,7 +113,7 @@ const MenuSection = () => {
                         <h4 className="font-semibold text-primary mb-1">{item.name}</h4>
                         <p className="text-sm text-muted-foreground">{item.description}</p>
                       </div>
-                      <Badge variant="outline" className="ml-4 text-accent-foreground bg-accent/20">
+                      <Badge className="ml-4 text-accent-foreground bg-accent">
                         {item.price}
                       </Badge>
                     </div>
@@ -142,7 +142,7 @@ const MenuSection = () => {
                         <h4 className="font-semibold text-primary mb-1">{item.name}</h4>
                         <p className="text-sm text-muted-foreground">{item.description}</p>
                       </div>
-                      <Badge variant="outline" className="ml-4 text-accent-foreground bg-accent/20">
+                      <Badge className="ml-4 text-accent-foreground bg-accent">
                         {item.price}
                       </Badge>
                     </div>
