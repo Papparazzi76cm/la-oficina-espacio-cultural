@@ -23,7 +23,7 @@ const Header = () => {
             <img 
               src={logoLaOficina} 
               alt="Café-Bar La Oficina Logo" 
-              className="h-30 w-auto"
+              className="h-24 w-auto"
             />
           </div>
 
