@@ -5,13 +5,13 @@ const GallerySection = () => {
   const galleryImages = [
     { id: 1, src: "/gallery/barra-nueva-la-oficina.png", alt: "Barra del Café-Bar La Oficina" },
     { id: 2, src: "/gallery/barra-tapas-la-oficina.webp", alt: "Barra con una selección de pinchos y bollería" },
-    { id: 3, src: "/gallery/barra-la-oficina.jpg", alt: "Interior del bar con luces de neón azules" },
+    { id: 3, src: "/gallery/cafe-choco.jpg", alt: "Café con chocolate" },
     { id: 4, src: "/gallery/cafe-la-oficina.jpg", alt: "Taza de café con leche y espuma" },
     { id: 5, src: "/gallery/desayunoi-con-tortilla-la-oficina.jpg", alt: "Desayuno completo con pincho de tortilla, café y zumo" },
     { id: 6, src: "/gallery/pincho-tortilla-la-oficina.jpg", alt: "Primer plano de un pincho de tortilla jugoso" },
     { id: 7, src: "/gallery/sandwich-vegetal-la-oficina.jpg", alt: "Sándwich vegetal tostado servido en un plato" },
     { id: 8, src: "/gallery/cafe-para-llevar-la-oficina.jpg", alt: "Cartel promocional de café para llevar" },
-    { id: 9, src: "/gallery/unnamed (5).jpg", alt: "Fachada exterior del Café-Bar La Oficina" },    
+    { id: 9, src: "/gallery/fachada-bar-la-oficina.jpg", alt: "Fachada exterior del Café-Bar La Oficina" },    
     { id: 10, src: "/gallery/logo-bar-la-oficina.png", alt: "Logo Café-Bar La Oficina" },
     
   ];
