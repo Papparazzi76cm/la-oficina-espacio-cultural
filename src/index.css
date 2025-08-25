@@ -8,26 +8,26 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 43 30% 96%;
+    --foreground: 25 20% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 40 15% 98%;
+    --card-foreground: 25 20% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 40 15% 98%;
+    --popover-foreground: 25 20% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 25 40% 25%;
+    --primary-foreground: 43 30% 96%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 30 40% 85%;
+    --secondary-foreground: 25 20% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 30 20% 90%;
+    --muted-foreground: 25 15% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 45 80% 65%;
+    --accent-foreground: 25 20% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
@@ -37,6 +37,18 @@ All colors MUST be HSL.
     --ring: 222.2 84% 4.9%;
 
     --radius: 0.5rem;
+
+    /* Café-Bar La Oficina Custom Colors */
+    --warm-brown: 25 40% 25%;
+    --cream: 43 30% 96%;
+    --golden: 45 80% 65%;
+    --coffee-dark: 20 35% 15%;
+    --coffee-light: 30 40% 85%;
+    
+    /* Gradients */
+    --gradient-warm: linear-gradient(135deg, hsl(var(--warm-brown)), hsl(var(--coffee-dark)));
+    --gradient-cream: linear-gradient(180deg, hsl(var(--cream)), hsl(var(--coffee-light)));
+    --gradient-golden: linear-gradient(45deg, hsl(var(--golden)), hsl(45 60% 75%));
 
     --sidebar-background: 0 0% 98%;
 
@@ -101,5 +113,20 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Animation delays */
+  [style*="animation-delay:0.2s"] {
+    animation-delay: 0.2s;
+  }
+  [style*="animation-delay:0.4s"] {
+    animation-delay: 0.4s;
+  }
+  [style*="animation-delay:0.6s"] {
+    animation-delay: 0.6s;
   }
 }
