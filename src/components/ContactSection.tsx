@@ -44,7 +44,7 @@ const ContactSection = () => {
                 <p className="text-foreground font-medium mb-2">C/ Vega 21</p>
                 <p className="text-foreground font-medium mb-4">47004 Valladolid</p>
                 <p className="text-muted-foreground text-sm">
-                  En pleno centro histórico de Valladolid, cerca de la Plaza Mayor y zonas comerciales.
+                  En pleno centro de Valladolid, junto a la Plaza España y zonas comerciales.
                 </p>
               </CardContent>
             </Card>
