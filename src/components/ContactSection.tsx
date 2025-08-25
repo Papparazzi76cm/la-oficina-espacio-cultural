@@ -63,7 +63,7 @@ const ContactSection = () => {
                   className="w-full justify-start"
                 >
                   <Phone className="w-4 h-4 mr-2" />
-                  +34 123 456 789
+                  +34 983 840 340
                 </Button>
                 <p className="text-muted-foreground text-sm mt-2">
                   Llámanos para reservas o cualquier consulta
