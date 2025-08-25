@@ -12,8 +12,7 @@ const GallerySection = () => {
     { id: 7, src: "/gallery/sandwich-vegetal-la-oficina.jpg", alt: "Sándwich vegetal tostado servido en un plato" },
     { id: 8, src: "/gallery/cafe-para-llevar-la-oficina.jpg", alt: "Cartel promocional de café para llevar" },
     { id: 9, src: "/gallery/fachada-bar-la-oficina.jpg", alt: "Fachada exterior del Café-Bar La Oficina" },    
-    { id: 10, src: "/gallery/logo-bar-la-oficina.png", alt: "Logo Café-Bar La Oficina" },
-    
+       
   ];
 
   return (
