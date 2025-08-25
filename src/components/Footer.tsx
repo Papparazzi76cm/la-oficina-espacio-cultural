@@ -23,7 +23,7 @@ const Footer = () => {
               <img 
                 src={logoLaOficina} 
                 alt="Café-Bar La Oficina Logo" 
-                className="h-12 w-auto brightness-0 invert"
+                className="h-20 w-auto brightness-0 invert"
               />
             </div>
             <p className="text-sm opacity-90 leading-relaxed">
