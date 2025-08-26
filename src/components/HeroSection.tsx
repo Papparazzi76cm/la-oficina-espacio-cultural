@@ -37,7 +37,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
           {/* Logo */}
-          <div className="mb-8 animate-fade-in">
+          <div className="mb-8 mt-16 md:mt-8 animate-fade-in">
             <img 
               src={logoLaOficina} 
               alt="Café-Bar La Oficina Logo" 
